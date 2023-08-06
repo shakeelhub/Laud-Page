@@ -1,0 +1,246 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+ .navbar ul{
+   align-items: center;
+   margin-left: 10rem;
+}
+
+.navbar ul a {
+    padding: 0 30px;
+}
+
+.main{
+    width: 100%;
+    height: 70vh;
+    background-color: rgb(27,28,29);
+    color:rgb(224,225,225);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 35px;
+    text-align: center;
+}
+
+.head{
+    font-size: 60px;
+}
+
+
+.about{
+    width:30%;
+    margin-top: 60px;
+    margin-left: 16rem;
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.topic{
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 1.5rem;
+}
+
+.right-img {
+  margin-left: 35rem;
+  width: 300px;
+  height: auto;
+  margin-top: -150px;
+  }
+  
+  .p2{
+    margin-top: -200px;
+  }
+  
+.parah{
+    margin-bottom: 1.5rem;
+    color:rgba(131, 131, 141);
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 400px;
+    gap: 10px;
+    margin-bottom: 80px;
+}
+
+
+.buttons button{
+    margin-left: 20px;
+    padding: 5px 30px;
+    border: none;
+    outline: none;
+}
+
+.youtube{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.ggl{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.wiki{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.wiki {
+    background-color: rgb(224, 225, 226);
+  }
+
+  .youtube {
+    background-color: rgb(198, 58, 50);
+  }
+
+  .ggl {
+    background-color: rgb(226, 120, 55);
+  }
+
+
+.quote{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.awards{
+    font-size: 20px;
+    margin-left: 45%;
+    font-size: 20px;
+    font-weight: bold;
+    align-items: center;
+}
+
+.awards{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+
+.award{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width:70%;
+    margin-left: 15%;
+    margin-bottom: 4rem;
+}
+
+.award > p {
+    display: flex;
+    border: 1px solid rgb(129, 138, 133);
+    padding-left: 10px;
+    margin-left: 10px;
+    padding: 10px 10px;
+}
+
+.list{
+    font-weight: bold;
+     font-size: 20px;
+     margin-left:28%;
+    }
+
+.poetry{
+    margin-left:10%;
+}
+
+.list-of-poetry{
+    font-size:13px;
+}
+
+.Collections{
+    display:flex;
+    margin-bottom: 5rem;
+}
+
+.footer{
+    background-color: rgb(27,28,29);
+    height:20vh;
+    width: 100%;
+    color:#fff;
+    text-align: center;
+      padding: 20px;
+      bottom: 0;
+}
+
+.footer p {
+    display: inline-block;
+    margin: 0 10px;
+  }
+
+  ul li{
+    color:rgba(131, 131, 141);
+  }
+
+ .paragraph{
+    margin-left:33%;
+ } 
+
+ @media (max-width: 576px) {
+    .navbar nav ul li {
+      display: block;
+      margin: 10px 0;
+    }
+    
+    .navbar {
+      padding: 10px;
+    }
+  
+    .navbar nav ul {
+      text-align: center;
+    }
+  
+    section {
+      padding: 50px 0;
+    }
+  
+    .about .p1,
+    .about .p2 {
+      padding: 20px;
+      display: block;
+    }
+  
+  
+  
+    .buttons {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+
+  
